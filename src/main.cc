@@ -27,6 +27,9 @@ int main(int argc, char** argv) {
   }
 
 
+  ru::FileReader reader(fontFilePath);
+
+
   std::cout << "hello font" << std::endl;
   return 0;
 }
